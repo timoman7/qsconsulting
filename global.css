@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://indodax.com/homev2-assets/img/p2pbg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    background: white;
+    height: 100%;
+    margin: 0;
+    padding: 0px 20px;
+    display: block;
+
+}
+a.disabled{
+    color: gray;
+    pointer-events: none;
+}
+#header{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.header-link{
+    color: black;
+}
+.header-link:hover{
+    color: black;
+    text-decoration: none;
+}
+.my-nav{
+    background: linear-gradient(to top, black, black 40%, #333 75%);
+}
+.my-nav a.nav-link{
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    background-color: #070707;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: underline;
+}
