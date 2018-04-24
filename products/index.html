@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Q's Consulting</title>
+    <title>Products</title>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.bundle.min.js" integrity="sha384-lZmvU/TzxoIQIOD9yQDEpvxp6wEU32Fy0ckUgOH4EIlMOCdR823rg4+3gWRwnX1M" crossorigin="anonymous"></script>
@@ -17,13 +17,16 @@
     <script src="https://code.angularjs.org/1.6.9/angular-messages.min.js" charset="utf-8"></script>
     <script src="https://code.angularjs.org/1.6.9/angular-sanitize.min.js" charset="utf-8"></script>
     <link href="./css/products.css" rel="stylesheet">
+    <link rel="stylesheet" href="/qsconsulting/global.css">
     <script src="./js/products.js" charset="utf-8"></script>
 </head>
 <body ng-app="body" ng-controller="bodyController">
     <div class="container">
-        <div ng-include="header.url">
+        <div ng-include="header.url"></div>
+        <div class="content">
 
         </div>
+        <div class="footer" ng-include="footer.url"></div>
     </div>
 </body>
 </html>
